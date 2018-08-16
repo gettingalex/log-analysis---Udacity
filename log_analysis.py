@@ -1,5 +1,5 @@
 # Code for Database Queries - Logs Analysis - Udacity Full Stack Nanodegree
-# Alexandre Deschenes - ar_creation@hotmail.com
+# Alexandre D.
 
 import psycopg2
 
