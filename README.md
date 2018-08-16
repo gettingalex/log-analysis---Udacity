@@ -30,7 +30,8 @@ In order to run this python program, you must run a virtual environment. This pr
 
 This assumes that the database is already installed and the following views were created:
 
-View top_three (Question 1)
+View top_three (Question 1):
+
 create view top_three as 
 select format('%s %s %s %s', articles.title,'-', count(log.path), 'views') 
 from log 
@@ -40,7 +41,8 @@ group by articles.title
 order by count(log.path) desc 
 limit 3;
 
-View pop_authors (Question 2)
+View pop_authors (Question 2):
+
 create view pop_authors as 
 select format('%s %s %s %s', authors.name, '-', count(log.path), 'views') 
 from articles 
@@ -51,7 +53,8 @@ on articles.slug = replace(log.path,'/article/','')
 group by authors.name 
 order by count(log.path) desc;
 
-View error_day (Question 3)
+View error_day (Question 3):
+
 create view error_day as 
 select format('%s %s %s%% %s', to_char(s1.date, 'FMMonth FMDD, YYYY'), '-', round(s1.errors * 100.0 / s2.all_data, 2), 'errors')
 from (select date(log.time) as date, count(id) as errors
