@@ -69,8 +69,8 @@ group by s1.date, s1.errors, s2.all_data;
 
 How to use?:
 
-1-Connect to a virtual machine
-2-In the command shell, cd to the project file and execute python3 log_analysis.py
-3-This will execute the three python procedures connected to the database news.
-4-Each of which will send a single SQL query to the database and return a tuple, which python transforms into a list, and then into strings to print to the command line.
+	•	Connect to a virtual machine
+	•	In the command shell, cd to the project file and execute python3 log_analysis.py
+	•	This will execute the three python procedures connected to the database news.
+	•	Each of which will send a single SQL query to the database and return a tuple, which python transforms into a list, and then into strings to print to the command line.
 
