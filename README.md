@@ -6,15 +6,15 @@ Alexandre Deschenes ar_creation@hotmail.com
 This project uses three PostgreSQL views (included under installation) integrated with Python DBAPI. The project queries the database news (not included in submission as per the instructions) for information regarding the tables articles, authors and log. The SQL queries output are reformatted into a string for clearer output. The questions are outputted above each query output.
 
 
-Code Style
+Code Style:
 
 Python pycodestyle (a.k.a. pep8)
 
 
 
-Tech/framework used
+Tech/framework used:
 
-This project uses:
+This project uses
 
 	•	Python
 	
@@ -67,7 +67,7 @@ group by s1.date, s1.errors, s2.all_data;
 
 
 
-How to use?
+How to use?:
 
 1-Connect to a virtual machine
 2-In the command shell, cd to the project file and execute python3 log_analysis.py
