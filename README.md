@@ -7,17 +7,23 @@ This project uses three PostgreSQL views (included under installation) integrate
 
 
 Code Style
+
 Python pycodestyle (a.k.a. pep8)
 
 
 Tech/framework used
+
 This project uses:
+
 	•	Python
+	
 	•	PostgreSQL
+	
 	•	VirtualBox(Vagrant)
 
 
 Installation:
+
 In order to run this python program, you must run a virtual environment. This project was developed with VirtualBox and Vagrant. Once in the virtual environment, run the python code log_analysis.py. 
 
 This assumes that the database is already installed and the following views were created:
@@ -59,6 +65,7 @@ group by s1.date, s1.errors, s2.all_data;
 
 
 How to use?
+
 1-Connect to a virtual machine
 2-In the command shell, cd to the project file and execute python3 log_analysis.py
 3-This will execute the three python procedures connected to the database news.
