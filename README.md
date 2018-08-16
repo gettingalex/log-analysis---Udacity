@@ -11,6 +11,7 @@ Code Style
 Python pycodestyle (a.k.a. pep8)
 
 
+
 Tech/framework used
 
 This project uses:
@@ -20,6 +21,7 @@ This project uses:
 	•	PostgreSQL
 	
 	•	VirtualBox(Vagrant)
+
 
 
 Installation:
@@ -62,6 +64,7 @@ inner join (select date(log.time) as date, count(id) as all_data
 on s1.date = s2.date
 where (s1.errors * 100.0 / s2.all_data) >= 1.0
 group by s1.date, s1.errors, s2.all_data;
+
 
 
 How to use?
