@@ -13,7 +13,8 @@ def most_pop_articles():
     list1 = [t[0] for t in articles]
     print ('The most popular three articles of all time:'
            + '\n'
-           + '\n'.join(str(v) for v in list1) + '\n')
+           + '\n'.join(str(v) for v in list1)
+           + '\n')
     db.close()
 
 
@@ -25,7 +26,8 @@ def most_pop_authors():
     list1 = [t[0] for t in authors]
     print ('The most popular article authors of all time:'
            + '\n'
-           + '\n'.join(str(v) for v in list1) + '\n')
+           + '\n'.join(str(v) for v in list1)
+           + '\n')
     db.close()
 
 
@@ -37,7 +39,8 @@ def error_day():
     list1 = [t[0] for t in dates]
     print ("Days were more than 1% of requests lead to errors:"
            + '\n'
-           + '\n'.join(str(v) for v in list1) + '\n')
+           + '\n'.join(str(v) for v in list1)
+           + '\n')
     db.close()
 
 
