@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # Code for Database Queries - Logs Analysis - Udacity Full Stack Nanodegree
 # Alexandre D.
 
