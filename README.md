@@ -1,4 +1,4 @@
-# log-analysis---Udacity
+# log-analysis - Udacity
 Logs Analysis - Udacity Full Stack Nanodegree
 Alexandre Deschenes ar_creation@hotmail.com
 
