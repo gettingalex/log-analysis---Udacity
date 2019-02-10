@@ -4,7 +4,7 @@
 
 import psycopg2
 
-
+#Display in the terminal the most popular articles in the database from the view top_three
 def most_pop_articles():
     db = psycopg2.connect("dbname=news")
     c = db.cursor()
@@ -17,7 +17,7 @@ def most_pop_articles():
            + '\n')
     db.close()
 
-
+#Display in the terminal most popular authors in the database from view pop_authors
 def most_pop_authors():
     db = psycopg2.connect("dbname=news")
     c = db.cursor()
@@ -30,7 +30,7 @@ def most_pop_authors():
            + '\n')
     db.close()
 
-
+#Display in the terminal the days with more that 1% of request return errors
 def error_day():
     db = psycopg2.connect("dbname=news")
     c = db.cursor()
